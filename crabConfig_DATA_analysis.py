@@ -55,7 +55,7 @@ config.Data.splitting = 'LumiBased'
 #config.Data.lumiMask = './golden_246908-258750_20151026.txt'
 #config.Data.lumiMask = './golden_246908-260627_20151120.txt'
 #config.Data.lumiMask = './Cert_271036-274240_13TeV_PromptReco_Collisions16_JSON.txt'
-config.Data.lumiMask = './Cert_271036-279588_13TeV_PromptReco_Collisions16_JSON_NoL1T.txt'
+config.Data.lumiMask = './jsons/Cert_271036-279588_13TeV_PromptReco_Collisions16_JSON_NoL1T.txt'
 config.Data.runRange = '271036-279588'
 
 config.Data.unitsPerJob = 2
