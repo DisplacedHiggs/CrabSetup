@@ -1,4 +1,4 @@
-rom CRABClient.UserUtilities import config
+from CRABClient.UserUtilities import config
 from CRABClient.UserUtilities import getUsernameFromSiteDB
 from datetime import datetime
 import sys
@@ -120,7 +120,7 @@ datasetnames = [
 ]
 # Storage path for output files
 #storagepath = '/store/user/'+getUsernameFromSiteDB()+'/mwalker/NTUPLES/2016/Data'
-storagepath = '/store/group/lpchbb/'+getUsernameFromSiteDB()+'/2016/DisplacedDijet'
+storagepath = '/store/group/lpcmbja/'+getUsernameFromSiteDB()+'/2016/DisplacedDijet'
 
 # cmsRun file
 psetname = 'runDisplacedMC_cfg.py'
