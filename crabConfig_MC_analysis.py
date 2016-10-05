@@ -1,4 +1,4 @@
-from CRABClient.UserUtilities import config
+rom CRABClient.UserUtilities import config
 from CRABClient.UserUtilities import getUsernameFromSiteDB
 from datetime import datetime
 import sys
@@ -158,7 +158,7 @@ config.JobType.pyCfgParams = ['outputFile='+OutputFilename]
 config.Data.inputDataset = datasetnames[number]
 config.Data.inputDBS = 'global'
 config.Data.splitting = 'FileBased'
-config.Data.unitsPerJob = 2
+config.Data.unitsPerJob = 1
 config.Data.ignoreLocality = True
 config.Data.outLFNDirBase = storagepath
 config.Data.publication = False
