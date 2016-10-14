@@ -162,7 +162,7 @@ process.displacedAOD.setupList = cms.VPSet(
              ),
     cms.PSet(type=cms.untracked.string("ObjectVariableCombined"),
              name=cms.string("SaveJet"),
-             cutList=cms.vstring("isJet","PT15"),
+             cutList=cms.vstring("isJet","PT5"),
              doAnd=cms.bool(True),
              ),
     cms.PSet(type=cms.untracked.string("ObjectVariableCombined"),
